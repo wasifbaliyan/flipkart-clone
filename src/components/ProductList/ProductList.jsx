@@ -74,9 +74,9 @@ export default function ProductList() {
 
   function getSortedProducts(products) {
     if (sortBy === "low") {
-      return products.sort((a, b) => b.price - a.price);
-    } else if (sortBy === "high") {
       return products.sort((a, b) => a.price - b.price);
+    } else if (sortBy === "high") {
+      return products.sort((a, b) => b.price - a.price);
     } else {
       return products;
     }
