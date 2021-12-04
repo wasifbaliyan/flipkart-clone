@@ -16,7 +16,7 @@
 
 .product_info {
   padding: 0 0.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 .product_brand {
   margin: 0;
@@ -33,4 +33,18 @@
 .product_price {
   margin: 0;
   font-weight: 500;
+}
+
+.product_size {
+  display: flex;
+  align-items: center;
+}
+.product_size_heading {
+  font-weight: 500;
+  color: #777;
+  margin-right: 0.3rem;
+}
+.product_size_item {
+  color: #414141;
+  font-size: 0.9rem;
 }

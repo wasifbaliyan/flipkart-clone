@@ -9,7 +9,15 @@ export default function Product({ product }) {
         <p className="product_brand">{product.brand}</p>
         <p className="product_name">{product.name}</p>
         <p className="product_price">₹{product.price}</p>
-        {/* <div className="product_size">{product.name}</div> */}
+        <div className="product_size">
+          <p className="product_size_heading">Size</p>
+          {product.sizes.map((size, i) => (
+            <p className="product_size_item" key={size}>
+              {i !== 0 && ", "}
+              {size}
+            </p>
+          ))}
+        </div>
       </div>
     </div>
   );
