@@ -1,0 +1,27 @@
+.sortby {
+  padding: 0 1rem;
+  display: flex;
+}
+.sortby_text {
+  font-weight: 500;
+}
+.sortby_button {
+  color: #414141;
+
+  margin: 0 0.3rem;
+  cursor: pointer;
+  font-size: inherit;
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid #fff;
+}
+
+.active {
+  color: #2874f0;
+  margin: 0 0.3rem;
+  cursor: pointer;
+  border: none;
+  font-size: inherit;
+  background-color: white;
+  border-bottom: 2px solid #2874f0;
+}

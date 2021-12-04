@@ -1,0 +1,93 @@
+[
+    {
+        "name":"Men Slim Fit Solid Slim Collar Casual Shirt",
+        "imageUrl":"https://rukminim1.flixcart.com/image/880/1056/k6fd47k0/shirt/e/u/v/l-c301-dustygreen-dennis-lingo-original-imafzvvr7q8zn9kh.jpeg?q=50",
+        "brand":"Dennis Lingo",
+        "price":"450",
+        "sizes":[
+            "S","M","L"
+        ],
+        "gender": "male"
+
+    },
+    {
+        "name":"Men Slim Fit Checkered Slim Collar Casual Shirt",
+        "imageUrl":"https://rukminim1.flixcart.com/image/880/1056/knunf680/shirt/t/b/v/xxl-c442-olive-dennis-lingo-original-imag2fp7xyuk88t4.jpeg?q=50",
+        "brand":"Dennis Lingo",
+        "price":"700",
+        "sizes":[
+            "M","L","XL"
+        ],
+        "gender": "male"
+
+    },
+    {
+        "name":"Men Slim Fit Solid Mandarin Collar Casual Shirt",
+        "imageUrl":"https://rukminim1.flixcart.com/image/880/1056/kpydrbk0/shirt/u/d/r/xl-c301-b-green-dennis-lingo-original-imag42z8fxqvxgzu.jpeg?q=50",
+        "brand":"PROTOCOL",
+        "price":"350",
+        "sizes":[
+            "L"
+        ],
+        "gender": "male"
+
+    },
+    {
+        "name":"Men Slim Fit Striped Spread Collar Casual Shirt",
+        "imageUrl":"https://rukminim1.flixcart.com/image/880/1056/jvtujrk0/shirt/h/t/k/42-2192700-roadster-original-imafgmsxbf9zun7v.jpeg?q=50",
+        "brand":"TOMMY HILFIGER",
+        "price":"4500",
+        "sizes":[
+            "S","L"
+        ],
+        "gender": "male"
+
+    },
+    {
+        "name":"Women Gown Grey Dress",
+        "imageUrl":"https://rukminim1.flixcart.com/image/880/1056/ks6ef0w0/dress/a/o/h/m-19aus10417-400011-wishful-by-w-original-imag5t25k5fjhac7.jpeg?q=50",
+        "brand":"WISHFUL",
+        "price":"4000",
+        "sizes":[
+            "S","M","L"
+        ],
+        "gender": "female"
+
+    }
+    ,
+    {
+        "name":"Women Ethnic Dress Maroon Dress",
+        "imageUrl":"https://rukminim1.flixcart.com/image/880/1056/k7z3afk0/kurta/h/a/e/s-19auw12656-112767-w-original-imafq3ef2et6cjgm.jpeg?q=50",
+        "brand":"Anukriti",
+        "price":"3500",
+        "sizes":[
+            "S","XL"
+        ],
+        "gender": "female"
+
+    }
+    ,
+    {
+        "name":"Women Fit and Flare White Dress",
+        "imageUrl":"https://rukminim1.flixcart.com/image/880/1056/kle24cw0/dress/f/y/9/l-20fed10236-501249-aurelia-original-imagygzx3zc4n8ur.jpeg?q=50",
+        "brand":"Aurelia",
+        "price":"2299",
+        "sizes":[
+            "L","M"
+        ],
+        "gender": "female"
+
+    }
+    , {
+        "name":"Women Fit and Flare Maroon Dress",
+        "imageUrl":"https://rukminim1.flixcart.com/image/880/1056/kp8ntzk0/dress/r/i/z/s-aa-0119-boho-long-dress-aayu-original-imag3ghzyktnj3bz.jpeg?q=50",
+        "brand":"Aks",
+        "price":"2599",
+        "sizes":[
+            "S","M","L","XL"
+        ],
+        "gender": "female"
+
+    }
+
+]

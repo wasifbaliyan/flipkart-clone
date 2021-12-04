@@ -1,0 +1,30 @@
+.header {
+  background-color: #2874f0;
+  position: fixed;
+  width: 100%;
+}
+
+.header_nav {
+  margin: 0 auto;
+  max-width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header_logo img {
+  width: 100px;
+}
+
+.header_search input {
+  width: 350px;
+  padding: 6px 20px;
+  font-size: 1.05rem;
+}
+.header_login button {
+  padding: 6px 30px;
+  color: #2874f0;
+  font-size: 1.05rem;
+  cursor: pointer;
+}

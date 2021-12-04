@@ -1,0 +1,36 @@
+.product {
+  flex-basis: 260px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0.6rem;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+.product:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.product img {
+  width: 100%;
+}
+
+.product_info {
+  padding: 0 0.5rem;
+  padding-bottom: 1rem;
+}
+.product_brand {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.product_name {
+  margin: 0;
+  font-size: 0.9rem;
+  padding: 0.3rem 0;
+}
+.product_price {
+  margin: 0;
+  font-weight: 500;
+}
