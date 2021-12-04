@@ -45,30 +45,33 @@ export default function ProductList() {
     return flag;
   }
 
-  function getFilteredProducts(products) {
+  function getGenderProducts(products) {
     return getSortedProducts(products).filter((product) => {
-      // if (state.brand.length !== 0) {
-      //   return product.brand === checkBrand(product.brand);
-      // } else if (state.gender.length !== 0) {
-      //   return product.gender === checkGender(product.gender);
-      // } else if (state.size.length !== 0) {
-      //   return checkSizes(product.sizes);
-      // } else {
-      //   return product;
-      // }
-
-      if (
-        state.brand.length !== 0 ||
-        state.gender.length !== 0 ||
-        state.size.length !== 0
-      ) {
-        return (
-          product.brand === checkBrand(product.brand) ||
-          product.gender === checkGender(product.gender) ||
-          checkSizes(product.sizes)
-        );
+      if (state.gender.length !== 0) {
+        return product.gender === checkGender(product.gender);
+      } else {
+        return product;
       }
-      return product;
+    });
+  }
+
+  function getBrandProducts(products) {
+    return getGenderProducts(products).filter((product) => {
+      if (state.brand.length !== 0) {
+        return product.brand === checkBrand(product.brand);
+      } else {
+        return product;
+      }
+    });
+  }
+
+  function getSizeProducts(products) {
+    return getBrandProducts(products).filter((product) => {
+      if (state.size.length !== 0) {
+        return checkSizes(product.sizes);
+      } else {
+        return product;
+      }
     });
   }
 
@@ -90,7 +93,8 @@ export default function ProductList() {
       <SortByPrice sortBy={sortBy} setSortBy={setSortBy} />
       <div className="line"></div>
       <div className="product-list_container">
-        {getFilteredProducts(products).map((product) => (
+        {getSizeProducts(products).length === 0 && <p>No products found!</p>}
+        {getSizeProducts(products).map((product) => (
           <Product product={product} key={product.price} />
         ))}
       </div>
